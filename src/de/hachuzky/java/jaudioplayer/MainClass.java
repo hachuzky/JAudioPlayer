@@ -24,7 +24,7 @@ public class MainClass extends JFrame {
 //					URL iconURL = getClass().getResource("D:\\Downloads\\Temp\\File-Types-Mp3-icon.png");
 //					ImageIcon icon = new ImageIcon(iconURL);
 //					frame.setIconImage(icon.getImage());
-					frame.setIconImage(ImageIO.read(new File(".Images/File-Types-Mp3-icon.png")));
+					frame.setIconImage(ImageIO.read(new File("Images/File-Types-Mp3-icon.png")));
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
